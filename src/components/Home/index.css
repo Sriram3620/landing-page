@@ -1,0 +1,25 @@
+.logo-img
+{
+   margin: 10px;
+   margin-left: 10%;
+   height: 35px;
+   background-color: white;
+
+}
+
+.main-bg{
+    background-color: #E2F5FB;
+    height: 115vh;
+    margin: 10px;
+}
+.logo-con
+{
+    background-color: white;
+}
+
+@media (max-width:576px)
+{
+    .main-bg{
+      height: 250vh;
+    }
+}

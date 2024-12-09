@@ -1,0 +1,117 @@
+.footer-bg
+{
+    background-color: #17414F;
+    height: 40vh;
+    padding: 15px;
+}
+.foot-contact-con
+{
+    display: flex;
+    background-color: #215D72;
+    width: 23vw;
+    height: 80px;
+    margin-top: 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.contact-icon
+{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    margin: 5px;
+
+}
+.ph-text
+{
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.07999999821186066px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding-top: 10px;
+    
+}
+.ph-num
+{
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.07999999821186066px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+
+}
+
+.footer-img
+{
+    background-color: white;
+    height: 80px;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.footer-con
+{
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.07999999821186066px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-top: 10px;
+
+}
+.f-con
+{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+}
+.final-icon
+{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
+
+@media(max-width:576px)
+{
+    .foot-contact-con
+   {
+    width: 80vw;
+    margin-left: 25px;
+    padding: 15px;
+    height: 100%;
+    padding-bottom: 15px;
+   }
+   .footer-bg
+   {
+       height: 110vh;
+   }
+}
+
+@media(min-width:577px ) and (max-width:789px)
+{
+    .foot-contact-con
+    {
+        width: 40vw;
+    }
+
+}

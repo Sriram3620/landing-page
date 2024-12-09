@@ -1,0 +1,108 @@
+
+
+.med-head
+{
+    color: #003569;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.07999999821186066px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.late-news
+{
+    font-family: Jost;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.07999999821186066px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #17414F;
+
+}
+.med-bg
+{
+    background-color: black;
+    width: 269.66px;
+    height: 452.22px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.med-bg-2
+{
+   
+    width: 272.66px;
+    height: 215px;
+    top: -99px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+
+
+.tag
+{
+    width: 104.77px;
+    height: 36px;
+    left: -10px;
+    padding-top: 6px;
+    font-size: 15px;
+    text-align: center;
+    gap: 0px;
+    border-radius: 0px 30px 30px 0px;
+    opacity: 0px;
+    background-color: #003569;
+    color: white;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.tag-des
+{
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.07999999821186066px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding-left: 15px;
+
+}
+
+@media(max-width:576px)
+{
+    .med-bg
+    {
+        width: 80vw;
+        margin-right: 10px;
+    }
+    .med-bg-2{
+        width: 80vw;
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:577px ) and (max-width:789px)
+{
+    .med-bg
+    {
+        width: 37vw;
+        margin-right: 0px;
+       background-color: black;
+    }
+    .med-bg-2
+    {
+        width: 37vw;
+        
+    }
+}
